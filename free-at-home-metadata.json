@@ -1,37 +1,11 @@
 {
-  "id": "de.busch-jaeger.freeathome.example",
+  "name": "Example for free@home split-unit addons",
+  "version": "1.0.0",
+  "id": "de.busch-jaeger.freeathome.split-unit-example",
+  "license": "MIT",
+  "description": "Example for free@home split-unit addons",
+  "url": "https://www.busch-jaeger.de",
   "author": "Busch Jaeger",
   "type": "app",
-  "version": "1.0.0",
-  "beta": true,
-  "url": {
-    "en": "https://busch-jaeger.de"
-  },
-  "entryPoint": "build/main.js",
-  "license": "MIT",
-  "parameters": {
-    "default": {
-      "items": {
-        "apiKey": {
-          "name": "API Key",
-          "type": "string"
-        },
-        "ignoreReachability": {
-          "name": "Ignore reachability",
-          "type": "boolean"
-        },
-        "port": {
-          "name": "Port",
-          "type": "number",
-          "max": 65536,
-          "min": 1024
-        },
-        "username": {
-          "name": "Username",
-          "type": "string"
-        }
-      },
-      "name": "Settings"
-    }
-  }
+  "entryPoint": "build/main.js"
 }
